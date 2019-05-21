@@ -1,0 +1,97 @@
+const {express, bcrypt, _} = require('../config/packagerequirement');
+const router = express.Router();
+const {User} = require('../models/user');
+const {validateUserModify, validateUserRegister} = require('../modules/validation');
+const {formatDate} = require('../modules/customfunction');
+const {adminRole, auth} = require('../config/custommiddleware');
+
+router.get('/', async (req, res) => {
+    const user = await User.find();
+    res.send(user);
+})
+
+router.get('/:userAccount', async (req, res) => {
+    const userAccount = req.params.userAccount;
+    const user = await User.findOne({userAccount: userAccount});
+    if (!user) return res.status(404).send("Cannot find user");
+    res.send(user);
+})
+
+router.post('/', async (req,res) => {
+    //validate 
+    if (req.body.DOB) {
+        console.log(formatDate(req.body.DOB));
+    }
+    const {error} = validateUserRegister(req.body);
+    if (error) return res.status(400).send(error.details[0].message);
+
+    //Create password
+    const hashedPassword = await bcrypt.hash(req.body.password, 7);
+
+    //insert
+    
+    try {
+        const newUser = new User({
+            userName: req.body.userName,
+            userAccount: req.body.userAccount,
+            email: req.body.email,
+            password: hashedPassword,
+            teamName: req.body.teamName,
+            DOB: req.body.DOB,
+            isOver18: req.body.isUnder18,
+        })
+        await newUser.save();
+        //Create Token
+        const token = newUser.generateAuthToken();
+        res.header('x-header-token', token).send({token: token, time: 600, status: "Register sucessful"});
+        
+    } catch (error) {
+        res.status(500).send(error.message);
+    }
+})
+
+router.put('/:userAccount', async (req, res) => {
+    if (req.body.password) {
+        const hashedPassword = await bcrypt.hash(req.body.password, 7);
+    }
+
+    const userAccount = req.params.userAccount;
+    const user = await User.findOne({userAccount: userAccount});
+    if (!user) return res.status(404).send('Cannot find user');
+
+    const {error} = validateUserModify(req.body);
+    if (error) return res.status(400).send(error.details[0].message);
+
+    try {
+        const modifyUser = await User.update({userAccount: userAccount}, req.body)
+        res.send(modifyUser);
+        
+    } catch (error) {
+        res.status(400).send(error.message);
+    }
+
+
+})
+
+router.delete('/:userAccount', [auth, adminRole], async (req, res) => {
+    if (req.body.password) {
+        const hashedPassword = await bcrypt.hash(req.body.password, 7);
+    }
+
+    const userAccount = req.params.userAccount;
+    const user = await User.findOne({userAccount: userAccount});
+    if (!user) return res.status(404).send('Cannot find user');
+    try {
+        const deleteUser = await User.findOneAndDelete({userAccount: userAccount});
+        res.send(deleteUser);
+        
+    } catch (error) {
+        res.status(400).send(error.message);
+    }
+
+
+})
+
+
+module.exports = router;
+

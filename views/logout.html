@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KFL</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <span>Logout sucessfully</span>
+  </body>
+</html>
+
+<script>
+  if (location.pathname === "/logout") {
+    localStorage.removeItem("jwt");
+    setTimeout(() => {
+      location.href = "/";
+    }, 1500);
+  }
+</script>
