@@ -1,0 +1,2 @@
+Make sure to install the mongodb on the server/ PC
+mongoimport -d KFL -c players --type CSV --file Book1.csv --headerline

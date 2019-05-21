@@ -1,0 +1,522 @@
+rank,playerName,team,gamePlayed,price,totalScore,averageScore,value,img
+1,Travis Boak,Power,7,"$758,000 ",823,117.6,15.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+2,Andrew Gaff,Eagles,5,"$788,000 ",581,116.2,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+3,Jake Lloyd,Swans,7,"$787,000 ",808,115.4,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+4,Patrick Cripps,Blues,7,"$799,000 ",804,114.9,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+5,Adam Treloar,Magpies,7,"$763,000 ",802,114.6,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+6,Lachie Whitfield I,Giants,6,"$791,000 ",671,111.8,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+7,Jaeger O'Meara,Hawks,6,"$759,000 ",670,111.7,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+8,Lachie Neale,Lions,7,"$764,000 ",779,111.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+9,Brodie Grundy,Magpies,7,"$792,000 ",771,110.1,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+10,Matt Crouch,Crows,7,"$749,000 ",771,110.1,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+11,Tim Taranto,Giants,7,"$733,000 ",769,109.9,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+12,Marcus Bontempelli,Bulldogs,7,"$726,000 ",768,109.7,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+13,Rory Sloane,Crows,7,"$718,000 ",763,109,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+14,Jackson Macrae,Bulldogs,7,"$775,000 ",762,108.9,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+15,Brayden Fiorini,Suns,7,"$748,000 ",760,108.6,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+16,Joshua Kelly I,Giants,4,"$758,000 ",433,108.2,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+17,Josh Kennedy,Swans,7,"$719,000 ",757,108.1,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+18,Stephen Coniglio,Giants,7,"$757,000 ",754,107.7,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+19,Dylan Shiel,Bombers,7,"$737,000 ",751,107.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+20,Nathan Fyfe,Dockers,6,"$726,000 ",640,106.7,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+21,Max Gawn,Demons,7,"$754,000 ",743,106.1,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+22,Brad Crouch,Crows,7,"$686,000 ",738,105.4,15.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+23,Mitchell Duncan,Cats,7,"$722,000 ",737,105.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+24,Jarrod Witts,Suns,7,"$721,000 ",727,103.9,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+25,Zachary Merrett,Bombers,7,"$747,000 ",727,103.9,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+26,Tom Rockliff,Power,7,"$680,000 ",726,103.7,15.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+27,Scott Pendlebury,Magpies,7,"$712,000 ",725,103.6,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+28,Thomas Stewart,Cats,7,"$677,000 ",719,102.7,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+29,Ed Langdon,Dockers,7,"$694,000 ",716,102.3,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+30,Patrick Dangerfield I,Cats,7,"$724,000 ",715,102.1,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+31,Shaun Higgins,Kangaroos,6,"$707,000 ",612,102,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+32,Dyson Heppell,Bombers,7,"$713,000 ",713,101.9,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+33,Clayton Oliver,Demons,7,"$724,000 ",710,101.4,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+34,Cameron Guthrie,Cats,3,"$527,000 ",302,100.7,19.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+35,Lachlan Hunter,Bulldogs,7,"$700,000 ",704,100.6,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+36,Tim Kelly,Cats,7,"$668,000 ",703,100.4,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+37,Ricky Henderson,Hawks,7,"$689,000 ",702,100.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+38,Angus Brayshaw,Demons,7,"$708,000 ",702,100.3,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+39,Ben McEvoy,Hawks,7,"$686,000 ",701,100.1,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+40,Trent Dumont,Kangaroos,6,"$650,000 ",588,98,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+41,Shannon Hurn,Eagles,7,"$691,000 ",686,98,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+42,Caleb Daniel,Bulldogs,7,"$651,000 ",684,97.7,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+43,Touk Miller,Suns,7,"$686,000 ",683,97.6,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+44,Daniel Rich,Lions,7,"$630,000 ",677,96.7,15.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+45,Luke Shuey,Eagles,7,"$643,000 ",676,96.6,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+46,Rory Laird,Crows,7,"$689,000 ",675,96.4,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+47,Jack Billings,Saints,7,"$670,000 ",674,96.3,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+48,Tom Phillips,Magpies,7,"$668,000 ",674,96.3,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+49,Matthew Suckling I,Bulldogs,4,"$654,000 ",385,96.2,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+50,Christian Salem,Demons,7,"$638,000 ",673,96.1,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+51,Steele Sidebottom,Magpies,7,"$670,000 ",673,96.1,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+52,Gary Ablett,Cats,7,"$679,000 ",672,96,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+53,Rowan Marshall,Saints,5,"$604,000 ",479,95.8,15.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+54,Sebastian Ross,Saints,7,"$694,000 ",667,95.3,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+55,Sam Walsh,Blues,7,"$594,000 ",666,95.1,16,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+56,Jack Steele,Saints,7,"$655,000 ",664,94.9,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+57,Dayne Zorko,Lions,7,"$656,000 ",662,94.6,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+58,Jeremy Cameron,Giants,7,"$639,000 ",662,94.6,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+59,Elliot Yeo,Eagles,7,"$663,000 ",661,94.4,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+60,Dominic Sheed,Eagles,7,"$597,000 ",658,94,15.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+61,Dayne Beams I,Magpies,6,"$686,000 ",563,93.8,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+62,Jack Crisp,Magpies,7,"$634,000 ",656,93.7,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+63,Marc Murphy,Blues,7,"$671,000 ",651,93,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+64,Bachar Houli,Tigers,4,"$598,000 ",372,93,15.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+65,Jacob Hopper,Giants,7,"$616,000 ",647,92.4,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+66,Mitch Robinson,Lions,7,"$636,000 ",645,92.1,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+67,James Harmes,Demons,7,"$618,000 ",643,91.9,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+68,Jack Redden,Eagles,6,"$643,000 ",551,91.8,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+69,Jason Johannisen,Bulldogs,4,"$592,000 ",367,91.8,15.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+70,James Sicily,Hawks,7,"$655,000 ",641,91.6,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+71,David Mundy,Dockers,7,"$649,000 ",640,91.4,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+72,Oliver Wines I,Power,5,"$639,000 ",456,91.2,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+73,Bradley Hill,Dockers,7,"$601,000 ",637,91,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+74,Brad Ebert I,Power,7,"$638,000 ",635,90.7,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+75,Zak Jones,Swans,7,"$615,000 ",635,90.7,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+76,Hugh McCluggage,Lions,7,"$601,000 ",633,90.4,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+77,Jack Newnes,Saints,7,"$593,000 ",631,90.1,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+78,Luke Parker,Swans,7,"$634,000 ",629,89.9,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+79,Jack Martin,Suns,7,"$602,000 ",629,89.9,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+80,Dion Prestia,Tigers,7,"$633,000 ",628,89.7,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+81,Bradley Sheppard,Eagles,7,"$609,000 ",628,89.7,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+82,Kane Lambert,Tigers,7,"$610,000 ",627,89.6,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+83,Tom Lynch,Crows,7,"$614,000 ",626,89.4,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+84,James Worpel,Hawks,7,"$585,000 ",625,89.3,15.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+85,Matthew Taberner,Dockers,7,"$604,000 ",623,89,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+86,Jarrod Berry,Lions,7,"$597,000 ",619,88.4,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+87,Isaac Heeney,Swans,7,"$632,000 ",615,87.9,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+88,Ben Cunnington,Kangaroos,7,"$618,000 ",613,87.6,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+89,Luke Ryan,Dockers,7,"$597,000 ",612,87.4,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+90,Jed Anderson,Kangaroos,4,"$566,000 ",349,87.2,15.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+91,Josh Dunkley,Bulldogs,7,"$605,000 ",610,87.1,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+92,Charlie Constable,Cats,5,"$454,000 ",433,86.6,19.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+93,Rhys Stanley,Cats,7,"$595,000 ",606,86.6,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+94,Harry Cunningham I,Swans,7,"$612,000 ",606,86.6,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+95,Adam Tomlinson,Giants,7,"$584,000 ",605,86.4,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+96,Anthony Miles,Suns,5,"$526,000 ",432,86.4,16.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+97,Liam Shiels,Hawks,4,"$627,000 ",345,86.2,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+98,Reilly O'Brien,Crows,5,"$452,000 ",431,86.2,19.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+99,Brandon Ellis,Tigers,6,"$596,000 ",517,86.2,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+100,Andrew Phillips,Blues,3,"$445,000 ",258,86,19.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+101,Jordan De Goey,Magpies,7,"$604,000 ",600,85.7,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+102,Joel Selwood I,Cats,6,"$624,000 ",514,85.7,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+103,Jamie MacMillan,Kangaroos,7,"$566,000 ",599,85.6,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+104,David Zaharakis,Bombers,6,"$634,000 ",511,85.2,13.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+105,Alex Witherden,Lions,7,"$608,000 ",596,85.1,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+106,Jack Bowes,Suns,7,"$561,000 ",595,85,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+107,Taylor Adams I,Magpies,5,"$627,000 ",423,84.6,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+108,Shane Mumford,Giants,5,"$531,000 ",423,84.6,15.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+109,Brodie Smith,Crows,7,"$558,000 ",592,84.6,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+110,Jared Polec,Kangaroos,7,"$592,000 ",591,84.4,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+111,Zachary Williams,Giants,7,"$546,000 ",591,84.4,15.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+112,Luke Dahlhaus,Cats,7,"$562,000 ",591,84.4,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+113,Nic Newman I,Blues,6,"$575,000 ",506,84.3,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+114,Michael Walters,Dockers,7,"$595,000 ",590,84.3,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+115,Tom Papley I,Swans,7,"$551,000 ",588,84,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+116,Thomas Liberatore,Bulldogs,7,"$550,000 ",588,84,15.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+117,Jasper Pittard,Kangaroos,7,"$577,000 ",587,83.9,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+118,Todd Goldstein,Kangaroos,7,"$590,000 ",587,83.9,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+119,Cameron Ellis-Yolmen,Crows,4,"$568,000 ",335,83.8,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+120,Shane Savage,Saints,7,"$597,000 ",585,83.6,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+121,David Swallow,Suns,7,"$585,000 ",584,83.4,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+122,Nick Haynes,Giants,6,"$549,000 ",500,83.3,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+123,Toby Nankervis,Tigers,7,"$575,000 ",582,83.1,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+124,Zac Fisher,Blues,7,"$562,000 ",579,82.7,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+125,Stefan Martin,Lions,7,"$592,000 ",579,82.7,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+126,Toby Greene,Giants,3,"$584,000 ",248,82.7,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+127,Michael Hurley,Bombers,7,"$580,000 ",578,82.6,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+128,Jack Viney I,Demons,6,"$585,000 ",495,82.5,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+129,Jackson Hately,Giants,2,"$314,000 ",164,82,26.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+130,Matthew Kreuzer I,Blues,2,"$568,000 ",164,82,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+131,Tom Cutler,Lions,2,"$593,000 ",164,82,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+132,Darcy Byrne-Jones,Power,7,"$546,000 ",573,81.9,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+133,Bryce Gibbs,Crows,5,"$642,000 ",409,81.8,12.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+134,Jack Steven I,Saints,4,"$624,000 ",327,81.8,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+135,Trent Cotchin I,Tigers,3,"$589,000 ",245,81.7,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+136,Sam Petrevski-Seton,Blues,7,"$560,000 ",570,81.4,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+137,Darcy Macpherson,Suns,7,"$536,000 ",570,81.4,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+138,Wayne Milera I,Crows,5,"$576,000 ",407,81.4,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+139,Dale Thomas,Blues,7,"$564,000 ",569,81.3,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+140,Darcy Parish,Bombers,6,"$552,000 ",487,81.2,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+141,Christopher Mayne I,Magpies,4,"$579,000 ",324,81,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+142,Taylor Garner,Kangaroos,1,"$373,000 ",81,81,21.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+143,Justin Westhoff,Power,7,"$569,000 ",567,81,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+144,Devon Smith,Bombers,6,"$612,000 ",486,81,13.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+145,Timothy English,Bulldogs,7,"$544,000 ",566,80.9,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+146,Aaron Hall,Kangaroos,6,"$573,000 ",484,80.7,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+147,Sam Gray,Power,5,"$536,000 ",403,80.6,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+148,Jordan Dawson,Swans,6,"$531,000 ",483,80.5,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+149,Sam Menegola,Cats,7,"$566,000 ",563,80.4,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+150,Jack Gunston,Hawks,7,"$550,000 ",562,80.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+151,Isaac Smith,Hawks,7,"$568,000 ",562,80.3,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+152,Ryan Burton,Power,7,"$528,000 ",558,79.7,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+153,Mitchell Wallis,Bulldogs,7,"$545,000 ",557,79.6,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+154,Jack Watts I,Power,2,"$488,000 ",159,79.5,16.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+155,Andrew McGrath I,Bombers,7,"$537,000 ",554,79.1,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+156,Rory Atkins,Crows,7,"$555,000 ",554,79.1,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+157,Liam Baker,Tigers,4,"$379,000 ",316,79,20.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+158,Tom Hawkins,Cats,7,"$554,000 ",553,79,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+159,Callum Sinclair,Swans,7,"$550,000 ",551,78.7,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+160,Will Brodie,Suns,2,"$481,000 ",157,78.5,16.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+161,Jaidyn Stephenson,Magpies,7,"$522,000 ",549,78.4,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+162,Luke Dunstan,Saints,3,"$578,000 ",235,78.3,13.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+163,Toby McLean,Bulldogs,7,"$566,000 ",548,78.3,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+164,Jarrod Harbrow,Suns,7,"$528,000 ",545,77.9,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+165,Brayden Maynard,Magpies,7,"$539,000 ",545,77.9,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+166,Edward Curnow,Blues,7,"$573,000 ",543,77.6,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+167,Dustin Martin,Tigers,6,"$571,000 ",465,77.5,13.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+168,Nathan Jones,Demons,7,"$554,000 ",542,77.4,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+169,Jack Ziebell,Kangaroos,7,"$535,000 ",539,77,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+170,Cale Hooker,Bombers,4,"$523,000 ",308,77,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+171,Connor Rozee,Power,7,"$476,000 ",539,77,16.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+172,Dom Tyson I,Kangaroos,3,"$551,000 ",230,76.7,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+173,Marty Hore,Demons,5,"$403,000 ",383,76.6,19,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+174,Daniel Howe,Hawks,4,"$544,000 ",306,76.5,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+175,Hugh Greenwood,Crows,3,"$557,000 ",229,76.3,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+176,Jake Melksham,Demons,7,"$518,000 ",534,76.3,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+177,Jarryn Geary I,Saints,4,"$520,000 ",305,76.2,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+178,Rory Lobb,Dockers,7,"$522,000 ",533,76.1,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+179,Callum Mills,Swans,7,"$526,000 ",533,76.1,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+180,Lachlan Weller I,Suns,3,"$530,000 ",228,76,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+181,Alex Keath,Crows,7,"$506,000 ",532,76,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+182,Reece Conca,Dockers,7,"$519,000 ",532,76,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+183,Jesse Hogan,Dockers,6,"$566,000 ",455,75.8,13.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+184,David Mirra,Hawks,4,"$462,000 ",303,75.8,16.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+185,Jarryd Lyons,Lions,7,"$538,000 ",530,75.7,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+186,Jack Graham I,Tigers,4,"$509,000 ",302,75.5,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+187,Sam Powell-Pepper,Power,7,"$522,000 ",528,75.4,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+188,Jack Ross,Tigers,4,"$364,000 ",301,75.2,20.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+189,Nick Vlastuin I,Tigers,7,"$533,000 ",525,75,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+190,Zach Tuohy I,Cats,1,"$576,000 ",75,75,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+191,Jack Higgins,Tigers,7,"$518,000 ",523,74.7,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+192,Jack Silvagni,Blues,3,"$412,000 ",224,74.7,18.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+193,David Cuningham,Blues,3,"$435,000 ",223,74.3,17.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+194,Hayden Crozier,Bulldogs,7,"$522,000 ",520,74.3,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+195,Billy Longer,Saints,1,"$483,000 ",74,74,15.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+196,Shaun Atley,Kangaroos,7,"$509,000 ",518,74,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+197,Kade Simpson I,Blues,6,"$561,000 ",440,73.3,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+198,Gryan Miers,Cats,7,"$444,000 ",513,73.3,16.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+199,Dane Rampe,Swans,7,"$498,000 ",512,73.1,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+200,Jack Sinclair,Saints,7,"$508,000 ",512,73.1,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+201,Jarrad McVeigh I,Swans,3,"$541,000 ",219,73,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+202,Blake Hardwick,Hawks,7,"$489,000 ",510,72.9,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+203,Tom Hickey I,Eagles,6,"$496,000 ",437,72.8,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+204,Heath Shaw,Giants,7,"$523,000 ",508,72.6,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+205,Jade Gresham,Saints,7,"$511,000 ",508,72.6,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+206,Scott Lycett,Power,7,"$515,000 ",507,72.4,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+207,George Hewett,Swans,7,"$487,000 ",505,72.1,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+208,Braydon Preuss I,Demons,2,"$370,000 ",144,72,19.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+209,Jake Stringer,Bombers,7,"$494,000 ",504,72,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+210,Brett Deledio,Giants,2,"$552,000 ",144,72,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+211,Dan Houston,Power,7,"$499,000 ",501,71.6,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+212,Riley Knight,Crows,7,"$485,000 ",501,71.6,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+213,Brandan Parfitt,Cats,6,"$507,000 ",429,71.5,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+214,Luke Breust,Hawks,7,"$520,000 ",500,71.4,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+215,Peter Wright,Suns,7,"$488,000 ",500,71.4,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+216,Tom Langdon,Magpies,7,"$489,000 ",499,71.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+217,Ryan Nyhuis,Dockers,2,"$390,000 ",142,71,18.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+218,Allen Christensen,Lions,2,"$518,000 ",142,71,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+219,Kyle Langford,Bombers,3,"$546,000 ",213,71,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+220,Darcy Tucker,Dockers,7,"$466,000 ",497,71,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+221,James Cousins S,Hawks,6,"$444,000 ",425,70.8,16,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+222,Robbie Gray I,Power,6,"$523,000 ",424,70.7,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+223,Xavier Duursma,Power,7,"$426,000 ",494,70.6,16.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+224,Jeremy McGovern,Eagles,7,"$483,000 ",492,70.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+225,Mitchell Brown I,Bombers,5,"$506,000 ",351,70.2,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+226,Alex Sexton,Suns,7,"$475,000 ",491,70.1,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+227,Matthew De Boer,Giants,7,"$497,000 ",491,70.1,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+228,Shane Edwards,Tigers,7,"$492,000 ",490,70,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+229,Sam Lloyd,Bulldogs,7,"$461,000 ",490,70,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+230,Billy Stretch,Demons,3,"$434,000 ",209,69.7,16.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+231,Sydney Stack,Tigers,5,"$361,000 ",348,69.6,19.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+232,Jake Kelly,Crows,7,"$481,000 ",487,69.6,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+233,Josh Jenkins,Crows,4,"$528,000 ",278,69.5,13.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+234,Tom Scully,Hawks,6,"$476,000 ",416,69.3,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+235,Cameron Zurhaar,Kangaroos,4,"$355,000 ",277,69.2,19.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+236,Charlie Cameron,Lions,7,"$469,000 ",483,69,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+237,Jarrod Lienert,Power,2,"$466,000 ",138,69,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+238,Ben Reid,Magpies,1,"$443,000 ",69,69,15.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+239,Jeremy Howe,Magpies,7,"$498,000 ",483,69,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+240,Jackson Thurlow,Swans,5,"$455,000 ",344,68.8,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+241,Lance Franklin I,Swans,5,"$538,000 ",344,68.8,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+242,Pearce Hanley,Suns,6,"$466,000 ",412,68.7,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+243,Adam Kennedy I,Giants,7,"$479,000 ",480,68.6,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+244,Orazio Fantasia I,Bombers,5,"$502,000 ",342,68.4,13.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+245,Liam Duggan,Eagles,6,"$470,000 ",409,68.2,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+246,Willem Drew,Power,7,"$400,000 ",477,68.1,17,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+247,Brody Mihocek,Magpies,7,"$471,000 ",476,68,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+248,Jordan Ridley,Bombers,6,"$431,000 ",408,68,15.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+249,Lachlan Plowman,Blues,7,"$457,000 ",476,68,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+250,Oliver Florent,Swans,7,"$489,000 ",476,68,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+251,Jack Scrimshaw,Hawks,6,"$400,000 ",406,67.7,16.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+252,Kamdyn Mcintosh,Tigers,7,"$457,000 ",473,67.6,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+253,Noah Answerth,Lions,2,"$237,000 ",135,67.5,28.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+254,Patrick Ryder,Power,7,"$482,000 ",472,67.4,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+255,Jeremy Finlayson,Giants,7,"$467,000 ",472,67.4,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+256,Will Hayes,Bulldogs,3,"$283,000 ",202,67.3,23.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+257,Joe Daniher,Bombers,3,"$526,000 ",202,67.3,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+258,Bailey Smith,Bulldogs,7,"$432,000 ",470,67.1,15.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+259,Jarman Impey,Hawks,7,"$469,000 ",470,67.1,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+260,Mason Wood,Kangaroos,5,"$450,000 ",335,67,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+261,Mark Blicavs,Cats,7,"$467,000 ",467,66.7,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+262,Elliott Himmelberg,Crows,3,"$384,000 ",200,66.7,17.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+263,Sam Reid,Swans,7,"$456,000 ",466,66.6,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+264,Sam Jacobs I,Crows,2,"$567,000 ",133,66.5,11.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+265,Bayley Fritsch,Demons,7,"$471,000 ",465,66.4,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+266,Joshua Walker,Lions,7,"$481,000 ",464,66.3,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+267,Taylor Duryea I,Bulldogs,4,"$452,000 ",265,66.2,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+268,Brandon Matera,Dockers,5,"$462,000 ",331,66.2,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+269,Jack Lonie I,Saints,6,"$477,000 ",397,66.2,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+270,David MacKay,Crows,7,"$466,000 ",462,66,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+271,Dawson Simpson,Giants,2,"$535,000 ",132,66,12.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+272,Jamie Elliott,Magpies,6,"$415,000 ",393,65.5,15.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+273,Anthony McDonald-Tipungwuti,Bombers,7,"$490,000 ",458,65.4,13.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+274,Robbie Tarrant,Kangaroos,7,"$476,000 ",457,65.3,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+275,Josh Battle,Saints,7,"$434,000 ",457,65.3,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+276,Chad Wingard,Hawks,5,"$497,000 ",326,65.2,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+277,Harry Taylor,Cats,7,"$449,000 ",456,65.1,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+278,Andrew Brayshaw,Dockers,7,"$451,000 ",456,65.1,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+279,Christian Petracca,Demons,7,"$488,000 ",455,65,13.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+280,Mason Redman,Bombers,4,"$448,000 ",260,65,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+281,Adam Saad,Bombers,7,"$430,000 ",453,64.7,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+282,Tim Membrey,Saints,7,"$462,000 ",453,64.7,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+283,Bailey Banfield,Dockers,3,"$471,000 ",194,64.7,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+284,Tom Bellchambers,Bombers,7,"$469,000 ",452,64.6,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+285,Luke Hodge,Lions,7,"$474,000 ",451,64.4,13.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+286,Callum Brown,Magpies,5,"$432,000 ",322,64.4,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+287,Paddy Dow,Blues,7,"$437,000 ",450,64.3,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+288,Tom Barrass I,Eagles,4,"$428,000 ",257,64.2,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+289,James Aish I,Magpies,5,"$486,000 ",321,64.2,13.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+290,Jarryd Roughead,Hawks,6,"$473,000 ",385,64.2,13.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+291,Adam Cerra,Dockers,7,"$441,000 ",448,64,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+292,Scott Thompson,Kangaroos,6,"$464,000 ",384,64,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+293,Ben Paton,Saints,4,"$368,000 ",255,63.8,17.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+294,Nathan Wilson,Dockers,7,"$456,000 ",445,63.6,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+295,Josh Caddy,Tigers,4,"$502,000 ",254,63.5,12.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+296,Shaun Burgoyne,Hawks,3,"$509,000 ",190,63.3,12.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+297,Taylor Walker,Crows,7,"$447,000 ",442,63.1,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+298,Phil Davis I,Giants,5,"$433,000 ",315,63,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+299,Travis Colyer,Dockers,7,"$434,000 ",440,62.9,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+300,Samuel Reid,Giants,7,"$401,000 ",440,62.9,15.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+301,Wil Powell,Suns,5,"$376,000 ",314,62.8,16.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+302,Aaron Naughton,Bulldogs,7,"$391,000 ",438,62.6,16,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+303,Sean Darcy,Dockers,2,"$531,000 ",125,62.5,11.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+304,Steven Motlop,Power,4,"$477,000 ",250,62.5,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+305,Jonathon Ceglar,Hawks,4,"$444,000 ",250,62.5,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+306,Will Setterfield,Blues,4,"$348,000 ",249,62.2,17.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+307,Jacob Weitering,Blues,7,"$420,000 ",433,61.9,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+308,Ben Brown,Kangaroos,7,"$435,000 ",433,61.9,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+309,Conor McKenna,Bombers,7,"$446,000 ",432,61.7,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+310,Eddie Betts,Crows,7,"$437,000 ",431,61.6,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+311,Nicholas Robertson,Lions,2,"$457,000 ",123,61.5,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+312,Lewis Jetta,Eagles,6,"$442,000 ",369,61.5,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+313,Aliir Aliir,Swans,7,"$430,000 ",430,61.4,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+314,Michael Hibberd,Demons,7,"$427,000 ",430,61.4,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+315,Lachie Young,Bulldogs,3,"$258,000 ",184,61.3,23.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+316,Jordan Murdoch,Suns,7,"$445,000 ",429,61.3,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+317,Riley Bonner,Power,7,"$424,000 ",429,61.3,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+318,Blake Acres,Saints,6,"$480,000 ",367,61.2,12.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+319,Paul Seedsman I,Crows,2,"$548,000 ",122,61,11.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+320,Dean Kent,Saints,7,"$420,000 ",427,61,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+321,Jack Petruccelle,Eagles,7,"$380,000 ",427,61,16.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+322,Luke Davies-Uniacke,Kangaroos,6,"$376,000 ",366,61,16.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+323,Jy Simpkin,Kangaroos,6,"$420,000 ",366,61,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+324,Josh Smith,Eagles,1,"$442,000 ",61,61,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+325,Jamie Cripps,Eagles,5,"$467,000 ",304,60.8,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+326,Thomas Jonas I,Power,5,"$467,000 ",303,60.6,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+327,Harris Andrews I,Lions,5,"$448,000 ",303,60.6,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+328,Aaron Francis,Bombers,4,"$408,000 ",242,60.5,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+329,Harry McKay,Blues,7,"$439,000 ",423,60.4,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+330,Darcy Moore,Magpies,7,"$414,000 ",423,60.4,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+331,Jay Lockhart,Demons,4,"$281,000 ",241,60.2,21.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+332,Chris Masten,Eagles,7,"$447,000 ",421,60.1,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+333,Mark O'Connor,Cats,7,"$400,000 ",421,60.1,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+334,Will Hoskin-Elliott,Magpies,2,"$468,000 ",120,60,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+335,Cameron McCarthy,Dockers,6,"$398,000 ",360,60,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+336,Matthew Lobbe,Blues,2,"$517,000 ",120,60,11.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+337,Levi Greenwood,Magpies,4,"$402,000 ",240,60,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+338,Levi Casboult,Blues,5,"$394,000 ",298,59.6,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+339,Tory Dickson,Bulldogs,7,"$397,000 ",417,59.6,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+340,Gary Rohan,Cats,7,"$396,000 ",415,59.3,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+341,Lewis Taylor,Lions,2,"$500,000 ",118,59,11.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+342,Richard Douglas I,Crows,1,"$526,000 ",59,59,11.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+343,Lachlan Henderson,Cats,1,"$444,000 ",59,59,13.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+344,Alex Neal-Bullen,Demons,5,"$451,000 ",293,58.6,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+345,Brent Daniels,Giants,7,"$375,000 ",410,58.6,15.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+346,David Myers,Bombers,5,"$467,000 ",292,58.4,12.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+347,Josh Thomas,Magpies,7,"$432,000 ",408,58.3,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+348,Luke McDonald I,Kangaroos,5,"$442,000 ",290,58,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+349,Brayden Ham,Bombers,1,"$189,000 ",58,58,30.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+350,Shaun McKernan I,Bombers,3,"$476,000 ",174,58,12.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+351,Tim O'Brien,Hawks,2,"$360,000 ",116,58,16.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+352,Jimmy Webster I,Saints,7,"$442,000 ",405,57.9,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+353,Ben Ainsworth,Suns,5,"$414,000 ",289,57.8,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+354,Tarryn Thomas,Kangaroos,5,"$334,000 ",288,57.6,17.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+355,Nick Larkey,Kangaroos,2,"$228,000 ",115,57.5,25.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+356,Josh Rotham,Eagles,2,"$216,000 ",115,57.5,26.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+357,Kayne Turner,Kangaroos,7,"$385,000 ",402,57.4,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+358,Jason Castagna,Tigers,6,"$405,000 ",343,57.2,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+359,Daniel Talia,Crows,7,"$398,000 ",400,57.1,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+360,Daniel Lloyd,Giants,7,"$400,000 ",400,57.1,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+361,Mason Cox I,Magpies,6,"$402,000 ",342,57,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+362,Colin O'Riordan,Swans,1,"$366,000 ",57,57,15.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+363,Jackson Trengove,Bulldogs,2,"$485,000 ",114,57,11.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+364,Jayden Hunt,Demons,7,"$409,000 ",398,56.9,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+365,Tom Clurey,Power,7,"$398,000 ",397,56.7,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+366,Joshua Kennedy,Eagles,6,"$406,000 ",340,56.7,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+367,Ethan Hughes,Dockers,7,"$395,000 ",396,56.6,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+368,Kieren Jack,Swans,3,"$417,000 ",169,56.3,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+369,Lachlan Schultz,Dockers,3,"$268,000 ",169,56.3,21,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+370,Charlie Ballard,Suns,7,"$371,000 ",394,56.3,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+371,Tom Cole,Eagles,7,"$387,000 ",394,56.3,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+372,Zak Butters,Power,7,"$360,000 ",394,56.3,15.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+373,Lachlan Murphy,Crows,7,"$389,000 ",394,56.3,14.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+374,Will Hayward,Swans,4,"$418,000 ",225,56.2,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+375,Rhys Mathieson,Lions,5,"$422,000 ",281,56.2,13.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+376,Jordan Roughead,Magpies,7,"$391,000 ",393,56.1,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+377,Zach Guthrie,Cats,1,"$308,000 ",56,56,18.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+378,Charlie Curnow,Blues,4,"$440,000 ",224,56,12.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+379,Jack Darling,Eagles,7,"$396,000 ",391,55.9,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+380,Jake Kolodjashnij,Cats,7,"$372,000 ",390,55.7,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+381,Michael Gibbons,Blues,7,"$348,000 ",390,55.7,16,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+382,Darcy Gardiner,Lions,7,"$392,000 ",390,55.7,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+383,Nicholas Holman,Suns,6,"$405,000 ",334,55.7,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+384,Tom Atkins,Cats,7,"$343,000 ",389,55.6,16.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+385,Matthew Parker,Saints,7,"$326,000 ",388,55.4,17,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+386,Matthew Buntine,Giants,6,"$358,000 ",332,55.3,15.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+387,Ryan Clarke,Swans,4,"$441,000 ",221,55.2,12.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+388,Oleg Markov I,Tigers,2,"$233,000 ",110,55,23.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+389,Dylan Moore,Hawks,2,"$211,000 ",110,55,26.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+390,Zac Bailey,Lions,3,"$390,000 ",165,55,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+391,Matt Guelfi,Bombers,6,"$405,000 ",328,54.7,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+392,Jesse Joyce,Suns,6,"$379,000 ",327,54.5,14.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+393,Maverick Weller,Tigers,2,"$463,000 ",109,54.5,11.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+394,Lincoln McCarthy,Lions,7,"$352,000 ",380,54.3,15.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+395,Dougal Howard,Power,5,"$364,000 ",271,54.2,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+396,Oscar McInerney,Lions,7,"$365,000 ",379,54.1,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+397,Shai Bolton,Tigers,3,"$276,000 ",162,54,19.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+398,Ryan Bastinac,Lions,3,"$419,000 ",162,54,12.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+399,Bailey Scott,Kangaroos,4,"$289,000 ",216,54,18.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+400,Harry Morrison,Hawks,5,"$414,000 ",269,53.8,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+401,Jayden Short I,Tigers,3,"$509,000 ",161,53.7,10.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+402,Mark Hutchings,Eagles,7,"$398,000 ",374,53.4,13.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+403,Tom Lynch,Tigers,7,"$398,000 ",371,53,13.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+404,Samuel Wright,Kangaroos,3,"$422,000 ",159,53,12.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+405,Jordan Clark,Cats,6,"$331,000 ",318,53,16,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+406,Tom McDonald,Demons,7,"$420,000 ",369,52.7,12.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+407,James Rowbottom,Swans,2,"$254,000 ",105,52.5,20.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+408,Caleb Marchbank,Blues,5,"$366,000 ",261,52.2,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+409,Paul Puopolo,Hawks,7,"$378,000 ",365,52.1,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+410,Tom Sparrow,Demons,2,"$257,000 ",104,52,20.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+411,Corey Wagner,Demons,4,"$279,000 ",208,52,18.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+412,Mitchell Lewis,Hawks,3,"$240,000 ",156,52,21.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+413,Daniel Rioli I,Tigers,7,"$383,000 ",364,52,13.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+414,Harrison Himmelberg,Giants,7,"$368,000 ",363,51.9,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+415,Sam Weideman,Demons,6,"$362,000 ",311,51.8,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+416,George Horlin-Smith,Suns,4,"$403,000 ",206,51.5,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+417,Dylan Grimes,Tigers,6,"$369,000 ",309,51.5,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+418,Ryan Lester,Lions,2,"$437,000 ",103,51.5,11.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+419,Callum Wilkie,Saints,7,"$332,000 ",357,51,15.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+420,Myles Poholke,Crows,2,"$343,000 ",102,51,14.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+421,Eric Hipwood,Lions,7,"$370,000 ",357,51,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+422,Sam Switkowski,Dockers,4,"$354,000 ",203,50.8,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+423,Lachlan Keeffe,Giants,2,"$290,000 ",101,50.5,17.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+424,Liam Ryan,Eagles,7,"$362,000 ",353,50.4,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+425,Samuel Collins,Suns,7,"$334,000 ",353,50.4,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+426,Hunter Clark,Saints,3,"$388,000 ",151,50.3,13,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+427,Taylin Duman,Dockers,3,"$425,000 ",151,50.3,11.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+428,Ben Long,Saints,5,"$360,000 ",248,49.6,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+429,Connor Menadue,Tigers,2,"$331,000 ",99,49.5,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+430,Josh Bruce,Saints,7,"$336,000 ",346,49.4,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+431,Jack Riewoldt I,Tigers,3,"$496,000 ",148,49.3,9.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+432,Paul Ahern,Kangaroos,2,"$462,000 ",98,49,10.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+433,Daniel McKenzie,Saints,6,"$353,000 ",293,48.8,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+434,Marley Williams I,Kangaroos,3,"$370,000 ",146,48.7,13.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+435,Oscar Allen,Eagles,7,"$318,000 ",340,48.6,15.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+436,Travis Varcoe,Magpies,5,"$346,000 ",242,48.4,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+437,Ed Richards,Bulldogs,7,"$341,000 ",337,48.1,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+438,Joshua Wagner,Demons,4,"$343,000 ",192,48,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+439,Tim Smith I,Demons,1,"$421,000 ",48,48,11.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+440,Heath Grundy I,Swans,1,"$454,000 ",48,48,10.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+441,Cameron Rayner,Lions,7,"$346,000 ",336,48,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+442,Jarrod Garlett,Blues,2,"$383,000 ",96,48,12.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+443,Jordan Lewis,Demons,3,"$474,000 ",144,48,10.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+444,David Astbury I,Tigers,6,"$363,000 ",286,47.7,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+445,Mitch McGovern I,Blues,6,"$369,000 ",284,47.3,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+446,Liam Jones I,Blues,7,"$340,000 ",331,47.3,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+447,Billy Gowers,Bulldogs,7,"$339,000 ",330,47.1,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+448,Bailey Williams,Bulldogs,2,"$522,000 ",94,47,9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+449,Lewis Pierce I,Saints,1,"$320,000 ",47,47,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+450,Tom McCartin,Swans,5,"$320,000 ",234,46.8,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+451,Daniel McStay,Lions,7,"$333,000 ",327,46.7,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+452,Daniel Venables,Eagles,4,"$327,000 ",186,46.5,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+453,Nathan Hrovat,Kangaroos,1,"$364,000 ",46,46,12.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+454,Kade Kolodjashnij I,Demons,2,"$520,000 ",92,46,8.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+455,Josh Corbett,Suns,2,"$196,000 ",92,46,23.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+456,Nathan Vardy,Eagles,6,"$348,000 ",273,45.5,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+457,Sam Frost,Demons,7,"$337,000 ",318,45.4,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+458,Alex Pearce,Dockers,7,"$302,000 ",318,45.4,15,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+459,Jack Lukosius,Suns,6,"$301,000 ",272,45.3,15.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+460,Karl Amon,Power,3,"$399,000 ",136,45.3,11.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+461,Todd Marshall,Power,5,"$307,000 ",226,45.2,14.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+462,Easton Wood,Bulldogs,7,"$335,000 ",315,45,13.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+463,Jeff Garlett,Demons,2,"$398,000 ",90,45,11.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+464,Jordan Gallucci,Crows,2,"$378,000 ",90,45,11.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+465,Lochie O'Brien,Blues,5,"$335,000 ",221,44.2,13.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+466,Mark Baguley,Bombers,7,"$331,000 ",309,44.1,13.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+467,Zachary Clarke I,Bombers,2,"$277,000 ",87,43.5,15.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+468,Joel Hamling,Dockers,7,"$315,000 ",304,43.4,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+469,Daniel Butler,Tigers,3,"$379,000 ",128,42.7,11.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+470,Josh Schache,Bulldogs,4,"$372,000 ",170,42.5,11.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+471,Benjamin Stratton,Hawks,6,"$308,000 ",255,42.5,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+472,Charlie Spargo,Demons,3,"$372,000 ",127,42.3,11.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+473,Nathan Broad,Tigers,7,"$305,000 ",294,42,13.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+474,Jack Henry,Cats,6,"$304,000 ",249,41.5,13.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+475,Kyle Hartigan,Crows,6,"$292,000 ",249,41.5,14.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+476,Sam Taylor,Giants,7,"$279,000 ",290,41.4,14.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+477,Kaiden Brand,Hawks,3,"$323,000 ",124,41.3,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+478,Neville Jetta I,Demons,4,"$321,000 ",164,41,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+479,Aaron Young,Suns,1,"$456,000 ",41,41,9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+480,Lewis Young,Bulldogs,2,"$287,000 ",82,41,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+481,Zaine Cordy,Bulldogs,7,"$283,000 ",280,40,14.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+482,Liam Stocker,Blues,1,"$236,000 ",40,40,16.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+483,Esava Ratugolea I,Cats,7,"$296,000 ",279,39.9,13.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+484,Darragh Joyce,Saints,2,"$195,000 ",79,39.5,20.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+485,Noah Balta,Tigers,6,"$240,000 ",236,39.3,16.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+486,Jack Hombsch,Suns,7,"$269,000 ",274,39.1,14.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+487,Tom Campbell,Kangaroos,2,"$374,000 ",78,39,10.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+488,Patrick Ambrose,Bombers,7,"$278,000 ",273,39,14,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+489,Alex Fasolo,Blues,2,"$351,000 ",78,39,11.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+490,Jarrod Brander,Eagles,2,"$195,000 ",77,38.5,19.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+491,Will Schofield,Eagles,3,"$251,000 ",115,38.3,15.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+492,Tom Doedee I,Crows,1,"$505,000 ",38,38,7.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+493,Jonathon Marsh,Saints,1,"$273,000 ",38,38,13.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+494,James Frawley I,Hawks,4,"$330,000 ",151,37.8,11.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+495,Aidan Corr I,Giants,2,"$301,000 ",73,36.5,12.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+496,Nathan Brown,Saints,5,"$234,000 ",182,36.4,15.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+497,Ben Ronke,Swans,5,"$330,000 ",180,36,10.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+498,Chris Burgess,Suns,5,"$227,000 ",177,35.4,15.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+499,Ryan Garthwaite,Tigers,1,"$267,000 ",35,35,13.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+500,Jake Waterman I,Eagles,1,"$385,000 ",34,34,8.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+501,Nick Blakey,Swans,6,"$236,000 ",203,33.8,14.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+502,Tom Williamson,Blues,1,"$256,000 ",33,33,12.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+503,Isaac Cumming,Giants,1,"$205,000 ",33,33,16.1,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+504,Ben McKay I,Kangaroos,3,"$215,000 ",98,32.7,15.2,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+505,Conor Nash,Hawks,5,"$277,000 ",162,32.4,11.7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+506,Oscar McDonald,Demons,5,"$248,000 ",160,32,12.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+507,Chayce Jones,Crows,4,"$249,000 ",127,31.8,12.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+508,Robbie Fox,Swans,1,"$322,000 ",31,31,9.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+509,Declan Keilty,Demons,1,"$172,000 ",30,30,17.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+510,Lewis Melican,Swans,4,"$258,000 ",120,30,11.6,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+511,Brennan Cox,Dockers,1,"$412,000 ",29,29,7,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+512,Hayden Ballantyne I,Dockers,1,"$371,000 ",27,27,7.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+513,Cameron Polson,Blues,3,"$224,000 ",76,25.3,11.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+514,Harry Perryman,Giants,1,"$362,000 ",25,25,6.9,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+515,Alex Rance I,Tigers,1,"$415,000 ",24,24,5.8,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+516,Steven May I,Demons,1,"$511,000 ",18,18,3.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+517,Justin Mcinerney,Swans,1,"$175,000 ",13,13,7.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+518,Callan Ward I,Giants,1,"$642,000 ",3,3,0.5,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+519,Thomas Sheridan I,Giants,1,"$471,000 ",2,2,0.4,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+520,Kobe Mutch I,Bombers,1,"$313,000 ",0,0,0,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
+521,Ed Vickers-Willis I,Kangaroos,1,"$312,000 ",-1,-1,-0.3,https://4.bp.blogspot.com/-zKaLdtxHmH0/XNfK7Rve0YI/AAAAAAAACvk/2ZrpCCQ0bgooCN8Qf4_qthNactLGbFopwCLcBGAs/s1600/default.jpg
