@@ -4,6 +4,7 @@ const {
   jwt
 } = require("../config/packagerequirement");
 const { JWTKEY } = require("../config/envconfig");
+const { playerSchema } = require("./player");
 
 const userSchema = new mongoose.Schema({
   userName: {
@@ -37,7 +38,8 @@ const userSchema = new mongoose.Schema({
   isAdmin: {
     type: Boolean,
     default: false
-  }
+  },
+  players: [playerSchema]
 });
 
 userSchema.methods.generateAuthToken = function() {
