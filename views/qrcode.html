@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.qrcode.js"></script>
+    <script src="js/qrcode.js"></script>
+  </head>
+  <body>
+    <div id="qrcode"></div>
+    <script>
+      //jQuery('#qrcode').qrcode("this plugin is great");
+      jQuery("#qrcode").qrcode({
+        text: "http://localhost:1702/"
+      });
+    </script>
+  </body>
+</html>

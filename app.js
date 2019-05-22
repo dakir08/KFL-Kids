@@ -28,6 +28,9 @@ app.get("/dashboard", (req, res) => {
   // if (!token) return res.sendFile(path.join(__dirname + "/views/index.html"));
   res.sendFile(path.join(__dirname + "/views/dashboard.html"));
 });
+app.get("/qrcode", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/qrcode.html"));
+});
 
 app.listen(PORT, () => {
   winston.info(`listening on port ${PORT}`);

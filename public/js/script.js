@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  // GENERATE QR CODE
+
   if (location.pathname === "/dashboard" && !localStorage.getItem("jwt")) {
     location.href = "/auth";
   }
