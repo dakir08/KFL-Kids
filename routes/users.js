@@ -2,28 +2,32 @@ const { express, bcrypt, _ } = require("../config/packagerequirement");
 const router = express.Router();
 const { User } = require("../models/user");
 const { Player } = require("../models/player");
+const cMiddleware = require("../config/custommiddleware");
 const {
   validateUserModify,
   validateUserRegister
 } = require("../modules/validation");
 const { formatDate } = require("../modules/customfunction");
-const { adminRole, auth } = require("../config/custommiddleware");
 
-router.get("/", async (req, res) => {
+router.get("/", [cMiddleware.auth, cMiddleware.adminRole], async (req, res) => {
   const user = await User.find();
   res.send(user);
 });
 
-router.get("/:userAccount", async (req, res) => {
-  const userAccount = req.params.userAccount;
-  const user = await User.findOne({ userAccount: userAccount });
-  if (!user) return res.status(404).send("Cannot find user");
-  res.send(user);
-});
+router.get(
+  "/:userAccount",
+  [cMiddleware.auth, cMiddleware.adminRole],
+  async (req, res) => {
+    const userAccount = req.params.userAccount;
+    const user = await User.findOne({ userAccount: userAccount });
+    if (!user) return res.status(404).send("Cannot find user");
+    res.send(user);
+  }
+);
 
 //Addplayer for collection
 
-router.put("/addPlayer/:userAccount", async (req, res) => {
+router.put("/addPlayer/:userAccount", cMiddleware.auth, async (req, res) => {
   //Find user
   const user = await User.findOne({ userAccount: req.params.userAccount });
   if (!user) return res.status(404).send("Cannot find user");
@@ -108,22 +112,26 @@ router.put("/:userAccount", async (req, res) => {
   }
 });
 
-router.delete("/:userAccount", [auth, adminRole], async (req, res) => {
-  if (req.body.password) {
-    const hashedPassword = await bcrypt.hash(req.body.password, 7);
-  }
+router.delete(
+  "/:userAccount",
+  [cMiddleware.auth, cMiddleware.adminRole],
+  async (req, res) => {
+    if (req.body.password) {
+      const hashedPassword = await bcrypt.hash(req.body.password, 7);
+    }
 
-  const userAccount = req.params.userAccount;
-  const user = await User.findOne({ userAccount: userAccount });
-  if (!user) return res.status(404).send("Cannot find user");
-  try {
-    const deleteUser = await User.findOneAndDelete({
-      userAccount: userAccount
-    });
-    res.send(deleteUser);
-  } catch (error) {
-    res.status(400).send(error.message);
+    const userAccount = req.params.userAccount;
+    const user = await User.findOne({ userAccount: userAccount });
+    if (!user) return res.status(404).send("Cannot find user");
+    try {
+      const deleteUser = await User.findOneAndDelete({
+        userAccount: userAccount
+      });
+      res.send(deleteUser);
+    } catch (error) {
+      res.status(400).send(error.message);
+    }
   }
-});
+);
 
 module.exports = router;
