@@ -27,7 +27,7 @@ router.get(
 
 //Addplayer for collection
 
-router.put("/addPlayer/:userAccount", cMiddleware.auth, async (req, res) => {
+router.put("/collection/:userAccount", cMiddleware.auth, async (req, res) => {
   //Find user
   const user = await User.findOne({ userAccount: req.params.userAccount });
   if (!user) return res.status(404).send("Cannot find user");
@@ -53,6 +53,37 @@ router.put("/addPlayer/:userAccount", cMiddleware.auth, async (req, res) => {
   //     res.status(400).send(error.message);
   //   }
 });
+
+router.delete(
+  "/collection/:userAccount",
+  cMiddleware.auth,
+  async (req, res) => {
+    //Find user
+    const user = await User.findOne({ userAccount: req.params.userAccount });
+    if (!user) return res.status(404).send("Cannot find user");
+
+    if (!req.body.players) res.status(400).send("There is no player to select");
+    const playersArray = req.body.players;
+
+    playersArray.forEach(async playerId => {
+      let isDuplicatePlayer = false;
+      const player = await Player.findOne({ _id: playerId });
+      const index = _.findIndex(user.players, { _id: player._id });
+      user.players.splice(index, 1);
+
+      console.log(_.findIndex(user.players, { _id: player._id }));
+    });
+    user.save();
+    res.send(user);
+
+    //   try {
+    //     user.players.concat(playersArray);
+    //     user.save();
+    //   } catch (error) {
+    //     res.status(400).send(error.message);
+    //   }
+  }
+);
 
 //Register user
 router.post("/", async (req, res) => {
