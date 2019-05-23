@@ -26,26 +26,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!--===============================================================================================-->
-    <script type="text/javascript">
-        function reqListener() {
-            var json = JSON.parse(this.responseText)
-            for (var i = 0; i < json.length; i++) {
 
-                var option = document.createElement("option");
-                option.text = json[i].name;
-                option.value = json[i].code;
-                var select = document.getElementById("dropdownMenuButton");
-                select.appendChild(option);
-            }
-
-        }
-
-        var oReq = new XMLHttpRequest();
-        oReq.addEventListener("load", reqListener);
-        oReq.open("GET", "/teams");
-        oReq.send();
-    </script>
 
 </head>
 
@@ -268,13 +249,13 @@
                 <!--===============================================================================================-->
                 <script src="vendor/bootstrap/js/popper.js"></script>
                 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-                
-                <script src="js/main.js"></script>
+
                 
                 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
                 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
                 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
                 
                 <script src="/js/jquery.qrcode.js"></script>
+                <script src="js/script.js"></script>
                 
                 </html>

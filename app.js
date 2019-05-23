@@ -15,16 +15,17 @@ app.get("/", (req, res) => {
 
 app.get("/auth", (req, res) => {
   res.sendFile(path.join(__dirname + "/views/auth.html"));
-  console.log(req.header("x-auth-token"));
 });
 
 app.get("/logout", (req, res) => {
   res.sendFile(path.join(__dirname + "/views/logout.html"));
 });
 
+app.get("/myteam", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/myteam.html"));
+});
+
 app.get("/dashboard", (req, res) => {
-  const token = req.header("x-auth-token");
-  console.log(token);
   // if (!token) return res.sendFile(path.join(__dirname + "/views/index.html"));
   res.sendFile(path.join(__dirname + "/views/dashboard.html"));
 });

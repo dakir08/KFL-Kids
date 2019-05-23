@@ -1,16 +1,30 @@
 $(document).ready(function() {
   // GENERATE QR CODE
 
-  if (location.pathname === "/dashboard" && !localStorage.getItem("jwt")) {
+  state = {
+    playerData: []
+  };
+
+  if (
+    (location.pathname === "/dashboard" || location.pathname === "/myteam") &&
+    !localStorage.getItem("jwt")
+  ) {
     location.href = "/auth";
   }
 
+  // if (location.pathname === "/" && localStorage.getItem("jwt")) {
+  //   location.href = "/dashboard";
+  // }
+
+  // if (location.pathname === "/auth" && localStorage.getItem("jwt")) {
+  //   location.href = "/dashboard";
+  // }
   if (location.pathname === "/" && localStorage.getItem("jwt")) {
-    location.href = "/dashboard";
+    location.href = "/myteam";
   }
 
   if (location.pathname === "/auth" && localStorage.getItem("jwt")) {
-    location.href = "/dashboard";
+    location.href = "/myteam";
   }
 
   //Get data from player
@@ -21,7 +35,7 @@ $(document).ready(function() {
     }
   };
 
-  if (location.pathname === "/dashboard") {
+  if (location.pathname === "/myteam") {
     $.ajax({
       type: "GET",
       beforeSend: function(req) {
@@ -29,7 +43,19 @@ $(document).ready(function() {
       },
       url: "http://localhost:1702/api/players",
       success: function(data) {
-        data.map(item => $("#data").append(`<li>${item.playerName}</li>`));
+        data.map(item => {
+          $("#playerData").append(
+            `<tr id=${item._id}><td><img src=${
+              item.img
+            } style='width:70px;height:70px;'/></td><td>${
+              item.playerName
+            }</td><td>${item.team}</td><td>${item.rank}</td><td>${
+              item.gamePlayed
+            }</td><td>${item.totalScore}</td><td>${item.value}</td></tr>`
+          );
+          state.playerData.push(item);
+        });
+        pagination();
       }
     });
   }
@@ -64,7 +90,7 @@ $(document).ready(function() {
         );
         localStorage.jwt = data.token;
         setTimeout(() => {
-          location.href = "/dashboard";
+          location.href = "/myteam";
         }, 2000);
       }).fail(function(err) {
         authStatus(
@@ -96,7 +122,7 @@ $(document).ready(function() {
       localStorage.jwt = data.token;
       // localStorage.setItem("jwt", data.token);
       setTimeout(() => {
-        location.href = "/dashboard";
+        location.href = "/myteam";
       }, 1500);
     }).fail(function(err) {
       // console.log(err.responseText);
@@ -116,4 +142,40 @@ function authStatus(id, removeStatus, addStatus, text) {
     .removeClass(removeStatus)
     .addClass(addStatus)
     .text(text);
+}
+
+function pagination() {
+  var req_num_row = 10;
+  var $tr = jQuery("tbody tr");
+  var total_num_row = $tr.length;
+  var num_pages = 0;
+  if (total_num_row % req_num_row == 0) {
+    num_pages = total_num_row / req_num_row;
+  }
+  if (total_num_row % req_num_row >= 1) {
+    num_pages = total_num_row / req_num_row;
+    num_pages++;
+    num_pages = Math.floor(num_pages++);
+  }
+  for (var i = 1; i <= num_pages; i++) {
+    jQuery("#pagination").append("<a href='#' class='btn'>" + i + "</a>");
+  }
+  $tr.each(function(i) {
+    jQuery(this).hide();
+    if (i + 1 <= req_num_row) {
+      $tr.eq(i).show();
+    }
+  });
+  jQuery("#pagination a").click(function(e) {
+    e.preventDefault();
+    $tr.hide();
+    var page = jQuery(this).text();
+    var temp = page - 1;
+    var start = temp * req_num_row;
+    //alert(start);
+
+    for (var i = 0; i < req_num_row; i++) {
+      $tr.eq(start + i).show();
+    }
+  });
 }
