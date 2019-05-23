@@ -72,25 +72,33 @@ $(document).ready(function() {
       url,
       success: function(data) {
         const { players } = data;
-        console.log(players);
-        let i = 0;
-        players.map(player => {
-          i++;
-          $("#showPlayers").append(`<div class="flip-card player${i}">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src='${player.img}' style='width:140px;height:140px;'/>
+        if (players.length === 0)
+          $("#showPlayers").append(
+            "<h2>You need to choose at least 1 player in your team!</h2>"
+          );
+        else {
+          let i = 0;
+          players.map(player => {
+            i++;
+            $("#showPlayers").append(`<div class="flip-card player${i}">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src='${player.img}' style='width:140px;height:140px;'/>
+            </div>
+            <div class="flip-card-back">
+              <h4>${player.playerName}</h4>
+              <font color="blue">
+              <p>Team: ${player.team}</p>
+              <p>Point: ${player.totalScore}</p>
+              </font>
+              <button class='btn btn-default btn-sm btn-primary' onClick=deletePlayer('${
+                player._id
+              }')>Delete Player</button>
+            </div>
           </div>
-          <div class="flip-card-back">
-            <h4>${player.playerName}</h4>
-            <font color="blue">
-            <p>Team: ${player.team}</p>
-            <p>Point: ${player.totalScore}</p>
-            </font>
-          </div>
-        </div>
-      </div>`);
-        });
+        </div>`);
+          });
+        }
       }
     });
   }
@@ -215,13 +223,72 @@ function pagination() {
   });
 }
 
-function deletePlayer(playerId) {
+function deletePlayer(playerID) {
   let playerArray = [];
   playerArray.push(playerID);
   const userAccount = parseJwt(localStorage.jwt).userAccount;
   const data = {
     players: playerArray
   };
+  const url = `http://localhost:1702/api/users/collection/${userAccount}`;
+
+  const url2 = `http://localhost:1702/api/users/${userAccount}`;
+
+  $.ajax({
+    type: "DELETE",
+    beforeSend: function(req) {
+      req.setRequestHeader("x-auth-token", localStorage.jwt);
+    },
+    url,
+    data,
+    success: function(data) {
+      myAlertTop({
+        alertMessage: "Delete player <strong>success</strong> !",
+        alertStatus: "success"
+      });
+    },
+    error: function(err) {
+      console.log(err.responseText);
+      myAlertTop({
+        alertMessage: err.responseText
+      });
+    }
+  });
+  setTimeout(() => {
+    $.ajax({
+      type: "GET",
+      beforeSend: function(req) {
+        req.setRequestHeader("x-auth-token", localStorage.jwt);
+      },
+      url: url2,
+      success: function(data) {
+        const { players } = data;
+        console.log(players);
+        let i = 0;
+        $("#showPlayers").empty();
+        players.map(player => {
+          i++;
+          $("#showPlayers").append(`<div class="flip-card player${i}">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src='${player.img}' style='width:140px;height:140px;'/>
+          </div>
+          <div class="flip-card-back">
+            <h4>${player.playerName}</h4>
+            <font color="blue">
+            <p>Team: ${player.team}</p>
+            <p>Point: ${player.totalScore}</p>
+            </font>
+            <button class='btn btn-default btn-sm btn-primary' onClick=deletePlayer('${
+              player._id
+            }')>Delete Player</button>
+          </div>
+        </div>
+      </div>`);
+        });
+      }
+    });
+  }, 1600);
 }
 
 function addPlayer(playerID) {
@@ -280,6 +347,9 @@ function addPlayer(playerID) {
             <p>Team: ${player.team}</p>
             <p>Point: ${player.totalScore}</p>
             </font>
+            <button class='btn btn-default btn-sm btn-primary' onClick=deletePlayer('${
+              player._id
+            }')>Delete Player</button>
           </div>
         </div>
       </div>`);
