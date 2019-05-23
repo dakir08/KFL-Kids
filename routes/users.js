@@ -14,16 +14,12 @@ router.get("/", [cMiddleware.auth, cMiddleware.adminRole], async (req, res) => {
   res.send(user);
 });
 
-router.get(
-  "/:userAccount",
-  [cMiddleware.auth, cMiddleware.adminRole],
-  async (req, res) => {
-    const userAccount = req.params.userAccount;
-    const user = await User.findOne({ userAccount: userAccount });
-    if (!user) return res.status(404).send("Cannot find user");
-    res.send(user);
-  }
-);
+router.get("/:userAccount", cMiddleware.auth, async (req, res) => {
+  const userAccount = req.params.userAccount;
+  const user = await User.findOne({ userAccount: userAccount });
+  if (!user) return res.status(404).send("Cannot find user");
+  res.send(user);
+});
 
 //Addplayer for collection
 
@@ -31,18 +27,19 @@ router.put("/collection/:userAccount", cMiddleware.auth, async (req, res) => {
   //Find user
   const user = await User.findOne({ userAccount: req.params.userAccount });
   if (!user) return res.status(404).send("Cannot find user");
-
-  if (!req.body.players) res.status(400).send("There is no player to select");
+  console.log(req.body);
+  if (!req.body.players) res.status(500).send("There is no player to select");
   const playersArray = req.body.players;
 
-  playersArray.forEach(async playerId => {
-    let isDuplicatePlayer = false;
+  for (let playerId of playersArray) {
+    console.log(playerId);
     const player = await Player.findOne({ _id: playerId });
-    if (_.findIndex(user.players, { _id: player._id }) == -1)
+    if (user.players.length === 5)
+      return res.status(500).send("you can add only 5 players");
+    else if (_.findIndex(user.players, { _id: player._id }) == -1)
       user.players.push(player);
+  }
 
-    console.log(_.findIndex(user.players, { _id: player._id }));
-  });
   user.save();
   res.send(user);
 

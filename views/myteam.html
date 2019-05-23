@@ -49,10 +49,6 @@
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
 						<li><a href="myteam.html">My Team</a></li>
-						<li><a href="about.html">What is KFL</a></li>
-						<li><a href="#">How To Play</a></li>
-						<li><a href="store.html">Store</a></li>
-						<li><a href="contact.html">Contact</a></li>
 						<li><a href="myprofile.html">My Profile</a></li>
 						<li><a href="/logout">Logout</a></li>
 						<!--
@@ -100,77 +96,9 @@
 	<div class="gtco-section border-bottom">
 		<div class="gtco-container" style="background-color:green">
 			<div class="row">
-				<div class="col-md-8" data-animate-effect="fadeInLeft">
-					<div class="flip-card player1">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
-								<img src="images/logo_file3.png"/>
-							</div>
-							<div class="flip-card-back">
-								<h4>Player Name</h4>
-								<font color="blue">
-								<p>Player Position</p> 
-								<p>Description</p>
-								</font>
-							</div>
-						</div>
-					</div>
-					<div class="flip-card player2">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
-								<img src="images/logo_file3.png"/>
-							</div>
-							<div class="flip-card-back">
-								<h4>Player Name</h4> 
-								<font color="blue">
-								<p>Player Position</p> 
-								<p>Description</p>
-								</font>
-							</div>
-						</div>
-					</div>
-					<div class="flip-card player3">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
-								<img src="images/logo_file3.png"/>
-							</div>
-							<div class="flip-card-back">
-								<h4>Player Name</h4> 
-								<font color="blue">
-								<p>Player Position</p> 
-								<p>Description</p>
-								</font>
-							</div>
-						</div>
-					</div>
-					<div class="flip-card player4">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
-								<img src="images/logo_file3.png"/>
-							</div>
-							<div class="flip-card-back">
-								<h4>Player Name</h4> 
-								<font color="blue">
-								<p>Player Position</p> 
-								<p>Description</p>
-								</font>
-							</div>
-						</div>
-					</div>
-					<div class="flip-card player5">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
-								<img src="images/logo_file3.png"/>
-							</div>
-							<div class="flip-card-back">
-								<h4>Player Name</h4> 
-								<font color="blue">
-								<p>Player Position</p> 
-								<p>Description</p>
-								</font>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-8" data-animate-effect="fadeInLeft" id='showPlayers'>
+
+
 				</div>
 				
 				<!-- All function in game -->
@@ -375,11 +303,12 @@
 							<th>Game Played</th>
 							<th>Total Score</th>
 							<th>Value</th>
+							<th></th>
 						</tr>
 					</thead>
 					<tfoot>
 						<tr>
-							<td colspan="7">
+							<td colspan="8">
 								<div class="links" id='pagination'></div>
 							</td>
 						</tr>
@@ -423,13 +352,19 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
+<!-- popup -->
+	<div class="myAlert-top alert" id='alert'>
+	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	<div id='alertMessage'></div>
+  </div>
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->

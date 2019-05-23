@@ -45,17 +45,52 @@ $(document).ready(function() {
       success: function(data) {
         data.map(item => {
           $("#playerData").append(
-            `<tr id=${item._id}><td><img src=${
+            `<tr><td><img src=${
               item.img
             } style='width:70px;height:70px;'/></td><td>${
               item.playerName
             }</td><td>${item.team}</td><td>${item.rank}</td><td>${
               item.gamePlayed
-            }</td><td>${item.totalScore}</td><td>${item.value}</td></tr>`
+            }</td><td>${item.totalScore}</td><td>${
+              item.value
+            }</td><td><button class='btn btn-default btn-sm btn-primary' onClick=addPlayer('${
+              item._id
+            }')>Add Player</button></td></tr>`
           );
           state.playerData.push(item);
         });
         pagination();
+      }
+    });
+    const userAccount = parseJwt(localStorage.jwt).userAccount;
+    const url = `http://localhost:1702/api/users/${userAccount}`;
+    $.ajax({
+      type: "GET",
+      beforeSend: function(req) {
+        req.setRequestHeader("x-auth-token", localStorage.jwt);
+      },
+      url,
+      success: function(data) {
+        const { players } = data;
+        console.log(players);
+        let i = 0;
+        players.map(player => {
+          i++;
+          $("#showPlayers").append(`<div class="flip-card player${i}">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src='${player.img}' style='width:140px;height:140px;'/>
+          </div>
+          <div class="flip-card-back">
+            <h4>${player.playerName}</h4>
+            <font color="blue">
+            <p>Team: ${player.team}</p>
+            <p>Point: ${player.totalScore}</p>
+            </font>
+          </div>
+        </div>
+      </div>`);
+        });
       }
     });
   }
@@ -178,4 +213,110 @@ function pagination() {
       $tr.eq(start + i).show();
     }
   });
+}
+
+function deletePlayer(playerId) {
+  let playerArray = [];
+  playerArray.push(playerID);
+  const userAccount = parseJwt(localStorage.jwt).userAccount;
+  const data = {
+    players: playerArray
+  };
+}
+
+function addPlayer(playerID) {
+  let playerArray = [];
+  playerArray.push(playerID);
+  const userAccount = parseJwt(localStorage.jwt).userAccount;
+  const data = {
+    players: playerArray
+  };
+  const url = `http://localhost:1702/api/users/collection/${userAccount}`;
+
+  const url2 = `http://localhost:1702/api/users/${userAccount}`;
+
+  $.ajax({
+    type: "PUT",
+    beforeSend: function(req) {
+      req.setRequestHeader("x-auth-token", localStorage.jwt);
+    },
+    url,
+    data,
+    success: function(data) {
+      myAlertTop({
+        alertMessage: "Add player <strong>success</strong> !",
+        alertStatus: "success"
+      });
+    },
+    error: function(err) {
+      console.log(err.responseText);
+      myAlertTop({
+        alertMessage: err.responseText
+      });
+    }
+  });
+  setTimeout(() => {
+    $.ajax({
+      type: "GET",
+      beforeSend: function(req) {
+        req.setRequestHeader("x-auth-token", localStorage.jwt);
+      },
+      url: url2,
+      success: function(data) {
+        const { players } = data;
+        console.log(players);
+        let i = 0;
+        $("#showPlayers").empty();
+        players.map(player => {
+          i++;
+          $("#showPlayers").append(`<div class="flip-card player${i}">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src='${player.img}' style='width:140px;height:140px;'/>
+          </div>
+          <div class="flip-card-back">
+            <h4>${player.playerName}</h4>
+            <font color="blue">
+            <p>Team: ${player.team}</p>
+            <p>Point: ${player.totalScore}</p>
+            </font>
+          </div>
+        </div>
+      </div>`);
+        });
+      }
+    });
+  }, 1600);
+}
+
+//decode JWT
+function parseJwt(token) {
+  var base64Url = token.split(".")[1];
+  var base64 = decodeURIComponent(
+    atob(base64Url)
+      .split("")
+      .map(function(c) {
+        return "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2);
+      })
+      .join("")
+  );
+
+  return JSON.parse(base64);
+}
+
+//Alert top
+function myAlertTop({ alertStatus, alertMessage }) {
+  const removedClass =
+    alertStatus === "success" ? "alert-danger" : "alert-success";
+  const addedClass =
+    alertStatus !== "success" ? "alert-danger" : "alert-success";
+
+  $("#alert").removeClass(removedClass);
+  $("#alert").addClass(addedClass);
+
+  $("#alertMessage").html(alertMessage);
+  $("#alert").show();
+  setTimeout(function() {
+    $("#alert").hide("slow");
+  }, 2000);
 }

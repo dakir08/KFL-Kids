@@ -11,15 +11,15 @@ const playerSchema = new mongoose.Schema({
     type: String
   },
   price: {
-    type: Number
+    type: String
   },
   gamePlayed: {
     type: Number
   },
-  totalPoint: {
+  totalScore: {
     type: Number
   },
-  averagePoint: {
+  averageScore: {
     type: Number
   },
   value: {
