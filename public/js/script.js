@@ -6,7 +6,9 @@ $(document).ready(function() {
   };
 
   if (
-    (location.pathname === "/dashboard" || location.pathname === "/myteam") &&
+    (location.pathname === "/dashboard" ||
+      location.pathname === "/myteam" ||
+      location.pathname === "/compareplayer") &&
     !localStorage.getItem("jwt")
   ) {
     location.href = "/auth";
@@ -34,6 +36,21 @@ $(document).ready(function() {
       jwt: localStorage.jwt
     }
   };
+
+  if (location.pathname === "/compareplayer") {
+    $.ajax({
+      type: "GET",
+      beforeSend: function(req) {
+        req.setRequestHeader("x-auth-token", localStorage.jwt);
+      },
+      url: "http://localhost:1702/api/players",
+      success: function(data) {
+        data.map(item => {
+          console.log(item);
+        });
+      }
+    });
+  }
 
   if (location.pathname === "/myteam") {
     $.ajax({

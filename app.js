@@ -32,6 +32,10 @@ app.get("/dashboard", (req, res) => {
 app.get("/qrcode", (req, res) => {
   res.sendFile(path.join(__dirname + "/views/qrcode.html"));
 });
+// compareplayers.html
+app.get("/compareplayer", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/compareplayers.html"));
+});
 
 app.listen(PORT, () => {
   winston.info(`listening on port ${PORT}`);
