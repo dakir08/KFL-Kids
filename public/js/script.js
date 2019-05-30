@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  // GENERATE QR CODE
-
   state = {
-    playerData: []
+    playerData: [],
+    playerCompare1: {},
+    playerCompare2: {}
   };
 
   if (
@@ -45,9 +45,8 @@ $(document).ready(function() {
       },
       url: "http://localhost:1702/api/players",
       success: function(data) {
-        data.map(item => {
-          console.log(item);
-        });
+        addLocalData(data);
+        renderPlayerCard(data);
       }
     });
   }
@@ -81,43 +80,7 @@ $(document).ready(function() {
     });
     const userAccount = parseJwt(localStorage.jwt).userAccount;
     const url = `http://localhost:1702/api/users/${userAccount}`;
-    $.ajax({
-      type: "GET",
-      beforeSend: function(req) {
-        req.setRequestHeader("x-auth-token", localStorage.jwt);
-      },
-      url,
-      success: function(data) {
-        const { players } = data;
-        if (players.length === 0)
-          $("#showPlayers").append(
-            "<h2>You need to choose at least 1 player in your team!</h2>"
-          );
-        else {
-          let i = 0;
-          players.map(player => {
-            i++;
-            $("#showPlayers").append(`<div class="flip-card player${i}">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src='${player.img}' style='width:140px;height:140px;'/>
-            </div>
-            <div class="flip-card-back">
-              <h4>${player.playerName}</h4>
-              <font color="blue">
-              <p>Team: ${player.team}</p>
-              <p>Point: ${player.totalScore}</p>
-              </font>
-              <button class='btn btn-default btn-sm btn-primary' onClick=deletePlayer('${
-                player._id
-              }')>Delete Player</button>
-            </div>
-          </div>
-        </div>`);
-          });
-        }
-      }
-    });
+    getPlayer(url);
   }
 
   //Set header
@@ -241,6 +204,7 @@ function pagination() {
 }
 
 function deletePlayer(playerID) {
+  console.log(playerID);
   let playerArray = [];
   playerArray.push(playerID);
   const userAccount = parseJwt(localStorage.jwt).userAccount;
@@ -264,6 +228,9 @@ function deletePlayer(playerID) {
         alertStatus: "success"
       });
     },
+    complete: () => {
+      getPlayer(url2);
+    },
     error: function(err) {
       console.log(err.responseText);
       myAlertTop({
@@ -271,41 +238,6 @@ function deletePlayer(playerID) {
       });
     }
   });
-  setTimeout(() => {
-    $.ajax({
-      type: "GET",
-      beforeSend: function(req) {
-        req.setRequestHeader("x-auth-token", localStorage.jwt);
-      },
-      url: url2,
-      success: function(data) {
-        const { players } = data;
-        console.log(players);
-        let i = 0;
-        $("#showPlayers").empty();
-        players.map(player => {
-          i++;
-          $("#showPlayers").append(`<div class="flip-card player${i}">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src='${player.img}' style='width:140px;height:140px;'/>
-          </div>
-          <div class="flip-card-back">
-            <h4>${player.playerName}</h4>
-            <font color="blue">
-            <p>Team: ${player.team}</p>
-            <p>Point: ${player.totalScore}</p>
-            </font>
-            <button class='btn btn-default btn-sm btn-primary' onClick=deletePlayer('${
-              player._id
-            }')>Delete Player</button>
-          </div>
-        </div>
-      </div>`);
-        });
-      }
-    });
-  }, 1600);
 }
 
 function addPlayer(playerID) {
@@ -332,6 +264,9 @@ function addPlayer(playerID) {
         alertStatus: "success"
       });
     },
+    complete: () => {
+      getPlayer(url2);
+    },
     error: function(err) {
       console.log(err.responseText);
       myAlertTop({
@@ -339,41 +274,6 @@ function addPlayer(playerID) {
       });
     }
   });
-  setTimeout(() => {
-    $.ajax({
-      type: "GET",
-      beforeSend: function(req) {
-        req.setRequestHeader("x-auth-token", localStorage.jwt);
-      },
-      url: url2,
-      success: function(data) {
-        const { players } = data;
-        console.log(players);
-        let i = 0;
-        $("#showPlayers").empty();
-        players.map(player => {
-          i++;
-          $("#showPlayers").append(`<div class="flip-card player${i}">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src='${player.img}' style='width:140px;height:140px;'/>
-          </div>
-          <div class="flip-card-back">
-            <h4>${player.playerName}</h4>
-            <font color="blue">
-            <p>Team: ${player.team}</p>
-            <p>Point: ${player.totalScore}</p>
-            </font>
-            <button class='btn btn-default btn-sm btn-primary' onClick=deletePlayer('${
-              player._id
-            }')>Delete Player</button>
-          </div>
-        </div>
-      </div>`);
-        });
-      }
-    });
-  }, 1600);
 }
 
 //decode JWT
@@ -406,4 +306,103 @@ function myAlertTop({ alertStatus, alertMessage }) {
   setTimeout(function() {
     $("#alert").hide("slow");
   }, 2000);
+}
+
+function getPlayer(url) {
+  $("#showPlayers").empty();
+  $.ajax({
+    type: "GET",
+    beforeSend: function(req) {
+      req.setRequestHeader("x-auth-token", localStorage.jwt);
+    },
+    url,
+    success: function(data) {
+      const { players } = data;
+      renderCard(players);
+    }
+  });
+}
+
+renderCard = players => {
+  if (players.length === 0)
+    return $("#showPlayers").append(
+      "<h2>You need to choose at least 1 player in your team!</h2>"
+    );
+  else {
+    let i = 0;
+    return players.map(player => {
+      i++;
+      $("#showPlayers").append(`<div class="flip-card player${i}">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src='${player.img}' style='width:180px;height:230px;'/>
+      <h3 class="player-name">${player.playerName}</h3>
+      <h4>{position}</h4>
+      <h3 class="player-id">${player.rank}</h3>
+    </div>
+    <div class="flip-card-back">
+    <h2 class="name">${player.playerName}</h2>
+    <p class="team">Team: ${player.team}</p>
+    <p class="GP">Game played: ${player.gamePlayed}</p>
+    <p >Total Score: ${player.totalScore}</p>
+    <p >Average Score: ${player.averageScore}</p>
+      <button class='btn btn-default btn-sm btn-primary' onClick=deletePlayer('${
+        player._id
+      }')>Delete Player</button>
+    </div>
+  </div>
+</div>`);
+    });
+  }
+};
+
+function renderPlayerCard(data) {
+  return data.map(item => {
+    $("#playerCard").append(`
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <a style='cursor: pointer' onClick=addComparePlayer("${
+        item._id
+      }") class="fh5co-project-item image-popup">
+        <figure>
+          <div class="overlay"><i class="ti-plus"></i></div>
+          <img src=${item.img} alt="Image" class="img-responsive">
+        </figure>
+        <div class="fh5co-text">
+          <h2>${item.playerName}</h2>
+          <p>${item.team}</p>
+        </div>
+      </a>
+    </div>
+    `);
+  });
+}
+
+addComparePlayer = playerId => {
+  console.log(state.playerData.find(({ _id }) => _id === playerId));
+  const player = state.playerData.find(({ _id }) => _id === playerId);
+  $("#playerName")
+    .empty()
+    .text(player.playerName);
+  $("#playerTeam")
+    .empty()
+    .text(player.team);
+  $("#playerImg").attr("src", player.img);
+  $("#totalScore").text(player.totalScore);
+  $("#totalScorePercent").attr("style", `width: ${randomInt(40, 100)}%`);
+  $("#averageScore").text(player.averageScore);
+  $("#avgScorePercent").attr("style", `width: ${randomInt(40, 100)}%`);
+  $("#value").text(player.value);
+  $("#valuePercent").attr("style", `width: ${randomInt(40, 100)}%`);
+  $("#ranking").text(player.rank);
+  $("#rankPercent").attr("style", `width: ${randomInt(0, 100)}%`);
+};
+
+addLocalData = data => {
+  state.playerData = data;
+};
+
+function randomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
 }

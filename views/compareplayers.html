@@ -81,7 +81,7 @@
 					<div class="row row-mt-15em">
 
 						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
-							<h1><font color="yellow">Compare Players</h1>	
+							<h1><font">Compare Players</h1>	
 						</div>
 						
 					</div>
@@ -95,15 +95,7 @@
 	
 	<div class="gtco-section border-bottom">
 		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-7 macbook-wrap animate-box" data-animate-effect="fadeInLeft">
-					<img src="images/VS2.png" width=200px height=300px alt="" class="field" style="position:relative;left:200px;">
-					<img src="images/ChosenPlayer.PNG" width=200px height=300px alt="" class="field" style="position:relative;left:-200px;">
-					<img src="images/ChosenPlayer.PNG" width=200px height=300px alt="" class="field" style="position:relative;left:px;">
-				</div>
 
-
-		</div>
 		<section class="crew has-padding alternate-bg" id="team">
 		<div class="container">
 			<div class="row">
@@ -118,10 +110,10 @@
 					<article class="crew-member" style="background-image: url(images/ChosenPlayer.PNG)">
 						<figure>
 							<figcaption class="overlay">
-								<h2>Travis Boak</h2>
-								<p>Power</p>
+								<h2 id='playerName'>Travis Boak</h2>
+								<p id='playerTeam'>Power</p>
 								<div class="crew-socials">
-									<img src="http://www.tradingcardheroes.com.au/etch/etchimages/players/BOAK-Travis.png" alt="" srcset="" style="width: 200px; height: 200px;">
+									<img id='playerImg' src="http://www.tradingcardheroes.com.au/etch/etchimages/players/BOAK-Travis.png" alt="" srcset="" style="width: 200px; height: 200px;">
 								</div>
 							</figcaption>
 						</figure>
@@ -144,33 +136,33 @@
 			<div class="row skillset">
 				<div class="col-md-6">
 					<div class="bar-chart-wrapper">
-						<h5 class="bar-chart-text">Total Score <span class="push-right">823</span></h5>
+						<h5 class="bar-chart-text">Total Score <span class="push-right" id='totalScore'>823</span></h5>
 						<div class="bar-wrapper">
-							<div class="bar" data-percentage="90%" style="width: 72%">
+							<div class="bar" id='totalScorePercent' data-percentage="90%" style="width: 72%">
 								<span></span>
 							</div>
 						</div>
 					</div>
 					<div class="bar-chart-wrapper">
-						<h5 class="bar-chart-text">Average Score <span class="push-right">117.6</span></h5>
+						<h5 class="bar-chart-text">Average Score <span class="push-right" id='averageScore'>117.6</span></h5>
 						<div class="bar-wrapper">
-							<div class="bar" data-percentage="95%"  style="width: 85%">
+							<div class="bar" id='avgScorePercent' data-percentage="95%"  style="width: 85%">
 								<span></span>
 							</div>
 						</div>
 					</div>
 					<div class="bar-chart-wrapper">
-						<h5 class="bar-chart-text">Value <span class="push-right">15.5</span></h5>
+						<h5 class="bar-chart-text">Value <span class="push-right" id='value'>15.5</span></h5>
 						<div class="bar-wrapper">
-							<div class="bar" data-percentage="95%"  style="width: 76%">
+							<div class="bar" id='valuePercent' data-percentage="95%"  style="width: 76%">
 								<span></span>
 							</div>
 						</div>
 					</div>
 					<div class="bar-chart-wrapper">
-						<h5 class="bar-chart-text">Ranking <span class="push-right">1</span></h5>
+						<h5 class="bar-chart-text">Ranking <span class="push-right" id='ranking'>1</span></h5>
 						<div class="bar-wrapper">
-							<div class="bar" data-percentage="95%"  style="width: 100%">
+							<div class="bar" id='rankPercent' data-percentage="95%"  style="width: 100%">
 								<span></span>
 							</div>
 						</div>
@@ -370,115 +362,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_1.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_1.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 1</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_2.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_2.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 2</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_3.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_3.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 3</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_4.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_4.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 4</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_5.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_5.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 5</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_6.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_6.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 6</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_1.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_1.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 7</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_2.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_2.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 8</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a href="images/img_3.jpg" class="fh5co-project-item image-popup">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/img_3.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="fh5co-text">
-							<h2>Player 9</h2>
-							<p>Player description</p>
-						</div>
-					</a>
-				</div>
+				<div id="playerCard"></div>
 			</div>
 		</div>
 	</div>

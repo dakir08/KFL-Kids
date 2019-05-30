@@ -81,7 +81,6 @@ h4,
 h5,
 h6,
 figure {
-  color: #000;
   font-family: "Advent Pro", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -2051,7 +2050,12 @@ form label {
 }
 .flip-card {
   background-color: transparent;
+  width: 180px;
+  height: 290px;
   perspective: 1000px;
+}
+img {
+  background-color: #0277bd;
 }
 
 .flip-card-inner {
@@ -2077,17 +2081,39 @@ form label {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: #ffffff;
   z-index: 2;
 }
 
 .flip-card-back {
   background-color: #2980b9;
-  color: white;
+  color: white !important;
   transform: rotateY(180deg);
   z-index: 1;
 }
+
+.player-name {
+  color: rgb(29, 64, 115);
+  margin: auto;
+}
+
+.player-id {
+  background: #004c8c;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.2em;
+  width: 1.2em;
+  margin-right: 15px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
 #content .panel.sidebar-menu {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
